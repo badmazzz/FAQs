@@ -36,7 +36,7 @@ body{
     padding: 10px;
 }
 .first:hover{
-    color: hsl(292, 42%, 14%);
+    color: hsl(292, 41%, 25%);
     cursor: pointer;
 }
 .first button{
