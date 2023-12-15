@@ -1,0 +1,51 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: hsl(275, 100%, 97%);
+    font-size: 16px;
+    font-family: myFirstFont;
+}
+.container{
+    position: fixed;
+    max-width: 450px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    z-index: 101;
+    padding: 2%;
+    background:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.head p{
+    margin-left: 15px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.first button{
+    border: none;
+    background: none;
+}
+
+.inner{
+    display: none;
+    color: hsl(292, 16%, 49%);
+    font-size: 14px;
+    max-width: 420px;
+    padding-left: 12px;
+    justify-content: center;
+    align-items: center;
+}
