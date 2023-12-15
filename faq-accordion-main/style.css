@@ -35,6 +35,10 @@ body{
     align-items: center;
     padding: 10px;
 }
+.first:hover{
+    color: hsl(292, 42%, 14%);
+    cursor: pointer;
+}
 .first button{
     border: none;
     background: none;
