@@ -28,7 +28,7 @@ body{
 
 .head p{
     margin-left: 15px;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 600;
 }
 .first{
@@ -63,7 +63,7 @@ body{
     }
         .container {
             position: fixed;
-            max-width: 200px;
+            max-width: 250px;
             width: 100%;
             top: 50%;
             left: 50%;
