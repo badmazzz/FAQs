@@ -9,7 +9,7 @@
 body{
     background: hsl(275, 100%, 97%);
     background-image: url('faq-accordion-main/assets/images/background-pattern-desktop.svg');
-/*     background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     font-size: 16px;
     font-family: myFirstFont;
 }
